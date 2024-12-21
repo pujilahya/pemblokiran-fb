@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: #4267B2;
+  padding: 1em;
+  color: white;
+}
+
+.logo {
+  width: 425px;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #4267B2;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background: #365899;
+}
+
+#forgot-password {
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+#new-account {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#new-account button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#new-account button:hover {
+  background: #45a049;
+}
+
+#ip-info {
+  text-align: center;
+  margin: 20px 0;
+}
+
